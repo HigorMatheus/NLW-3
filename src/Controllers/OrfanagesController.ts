@@ -30,6 +30,7 @@ export default {
             name,
             latitude,
             longitude,
+            whatsapp,
             about,
             instructions,
             opening_hours,
@@ -48,6 +49,7 @@ export default {
             name,
             latitude,
             longitude,
+            whatsapp,
             about,
             instructions,
             opening_hours,
@@ -57,6 +59,7 @@ export default {
 
         const schema = Yup.object().shape({
             name: Yup.string().required(),
+            whatsapp: Yup.string().required(),
             latitude: Yup.number().required(),
             longitude: Yup.number().required(),
             about: Yup.string().required().max(300),

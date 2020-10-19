@@ -12,6 +12,9 @@ export default class Orphanege{
     name: string;
 
     @Column()
+    whatsapp: string;
+
+    @Column()
     latitude:number;
 
     @Column()

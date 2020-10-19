@@ -1,5 +1,9 @@
 node_modules
 
-**/*.sqlite 
+src/database/database.sqlite
 
-uploads/* 
+uploads/*
+!uploads/.gitkeep
+
+
+yarn-error.log
